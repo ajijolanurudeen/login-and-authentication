@@ -22,7 +22,7 @@ app.use(express.static("img"));
 
 
 app.get("/",(req,res)=>{
-    res.render('login')
+    res.render('index')
 });
 
 app.get('/signup',(req,res)=>{
